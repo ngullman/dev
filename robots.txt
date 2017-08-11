@@ -1,0 +1,54 @@
+# Crawlers Setup
+User-agent: *
+
+# Directories
+Disallow: /app/
+Disallow: /cgi-bin/
+Disallow: /downloader/
+Disallow: /includes/
+Disallow: /lib/
+Disallow: /pkginfo/
+Disallow: /report/
+Disallow: /shell/
+Disallow: /var/
+
+# Paths (clean URLs)
+Disallow: /index.php/
+Disallow: /catalog/product_compare/
+Disallow: /catalog/category/view/
+Disallow: /catalog/product/view/
+Disallow: /catalogsearch/
+#Disallow: /checkout/
+Disallow: /control/
+Disallow: /contacts/
+Disallow: /customer/
+Disallow: /customize/
+Disallow: /newsletter/
+Disallow: /poll/
+Disallow: /review/
+Disallow: /sendfriend/
+Disallow: /tag/
+Disallow: /wishlist/
+Disallow: /catalog/product/gallery/
+
+# Misc. files you don’t want search engines to crawl
+Disallow: /cron.php
+Disallow: /cron.sh
+Disallow: /composer.json
+Disallow: /LICENSE.html
+Disallow: /LICENSE.txt
+Disallow: /LICENSE_AFL.txt
+Disallow: /STATUS.txt
+Disallow: /mage
+#Disallow: /modman
+#Disallow: /n98-magerun.phar
+Disallow: /scheduler_cron.sh
+Disallow: /*.php$
+
+# Disallow filter urls
+Disallow: /*?min*
+Disallow: /*?max*
+Disallow: /*?q*
+Disallow: /*?cat*
+Disallow: /*?manufacturer_list*
+Disallow: /*?tx_indexedsearch
